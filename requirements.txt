@@ -1,0 +1,10 @@
+transformers==4.40.2
+accelerate==0.30.1
+datasets==2.19.1
+soundfile==0.12.1
+librosa==0.8.0
+descript-audio-codec==1.0.0
+ffmpeg-python==0.2.0
+tensorboard==2.17.0
+torch
+torchaudio

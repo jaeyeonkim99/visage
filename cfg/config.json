@@ -1,0 +1,18 @@
+{
+    "classifier_free_guidance": true,
+    "cfg_dropout_prob": 0.1,
+    "cfg_guidance_scale": 2.5,
+    "cfg_spatial_guidance_scale": 2.5,
+    "d_clip": 512,
+    "num_rvq": 9,
+    "dac_vocab_size": 1024,
+    "dac_pad_token_id": 1024,
+    "max_source_length": 20,
+    "max_target_length": 861,
+    "dac_sample_rate": 44100,
+    "clip_frame_rate": 4,
+    "d_model": 1024,
+    "encoder_layers": 6,
+    "decoder_layers": 12,
+    "_attn_implementation": "flash_attention_2"
+}

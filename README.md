@@ -69,8 +69,8 @@ sh evaluate_ambi.sh
 
 ## Pretrained Checkpoints
 
-- Checkpoints will be released soon.
-
+- Pretrained checkpoints are available at [huggingface](https://huggingface.co/jaeyeonkim99/visage/tree/main). 
+  
 ## Citation
 
 ```bibtex

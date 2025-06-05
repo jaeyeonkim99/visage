@@ -10,13 +10,15 @@ illustrate that ViSAGe generates temporally aligned high-quality spatial audio t
 
 ![Overall](assets/keyidea.png)
 
-## YT-Ambigen
+## [YT-Ambigen](utils/README.md)
 
 - Data splits are provided in `csv/yt_ambigen/{train, valid, test}.csv`.
 - Camera direction for each clip is given in `csv/yt_ambigen/ambi.json`, in `(elevation, azimuth)` format.
   - `elevation`: Values range from 0 to 90, representing the angle (in degrees) from the vertical (z-axis). Each unit corresponds to 2 degrees.
   - `azimuth`: Values range from 0 to 180, representing the anti-clockwise angle from the y-axis (back side). Each unit corresponds to 2 degrees.
-- Scripts to help download and prepare the dataset will be released soon.
+- ~~Scripts to help download and prepare the dataset will be released soon.~~
+- Scripts for data preparation are released! Please refer to [`utils/README.md`](utils/README.md) for details.
+- We plan to release 3x larger version of YT-Ambigen with 100% human validated test samples. Stay tuned for further updates.
 
 ## Environments
 

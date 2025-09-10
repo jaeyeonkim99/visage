@@ -3,6 +3,7 @@
 - You can see detailed usage for each script by adding the `-h` flag.
 - Files are processed based on video IDs provided in the CSV file (`yt_ambigen.csv`).  
   You may split the CSV file to parallelize feature extraction across multiple processes.
+- If you have problem on downloading the dataset, please send email to jaeyeon2@andrew.cmu.edu.
 
 ## Preparing DAC and CLIP
 
